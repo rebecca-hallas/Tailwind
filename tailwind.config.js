@@ -2,10 +2,17 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'code': "url('./bg.png')",
+        'yay': "url('./yay.png')"
+      }),
+    },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundImage: ['hover', 'focus'],
+    },
   },
   plugins: [],
 }
