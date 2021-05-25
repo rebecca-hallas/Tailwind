@@ -4,9 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tailwind.css">
     <title>Tailwind Demo</title>
 </head>
-<body>
+<body class="bg-pink-200">
     <h1>Welcome to a Live Demo of Tailwind CSS!</h1>
+    <h1>The grid below is comprised of 6 rows and 6 columns.</h1>
+
+    <div class="grid grid-cols-6 grid-rows-6 border-4 border-black">
+
+        <div class="col-span-1 bg-red-200 border-4 border-black">
+            <p>C1</p>
+            <p>R1</p>
+        </div>
+
+        <div class="col-span-1 col-start-2 bg-red-200 border-4 border-black">
+            <p>C2</p>
+            </div>
+
+        <div class="col-span-1 col-start-3 bg-red-200 border-4 border-black">
+            <p>C3</p>
+        </div>
+
+        <div class="col-span-1 col-start-4 bg-red-200 border-4 border-black">
+            <p>C4</p>
+        </div>
+
+        <div class="col-span-1 col-start-5 bg-red-200 border-4 border-black">
+            <p>C5</p>
+        </div>
+
+        <div class="col-span-1 col-start-6 bg-red-200 border-4 border-black">
+            <p>C6</p>
+        </div>
+
+        <div class="row-span-1 row-start-2 bg-red-200 border-4 border-black">
+            <p>R2</p>
+        </div>
+
+        <div class="row-span-1 row-start-3 bg-red-200 border-4 border-black">
+            <p>R3</p>
+        </div>
+
+        <div class="row-span-1 row-start-4 bg-red-200 border-4 border-black">
+            <p>R4</p>
+        </div>
+
+        <div class="row-span-1 row-start-5 bg-red-200 border-4 border-black">
+            <p>R5</p>
+        </div>
+
+        <div class="row-span-1 row-start-6 bg-red-200 border-4 border-black">
+            <p>R6</p>
+        </div>
+
+        <div class="col-span-4 bg-green-200 border-4 border-black">
+            <p>Hello I am spanning four columns</p>
+        </div>
+        <div class="col-span-2 bg-yellow-200 border-4 border-black">
+            <p>Hello I am spanning two columns</p>
+        </div>
+        <div class="row-start-2 row-span-2 bg-blue-200 border-4 border-black">
+            <p>hello i am starting at row 2 and spanning 2 rows</p>
+            <p>hello i am starting at row 2 and spanning 2 rows</p>
+            <p>hello i am starting at row 2 and spanning 2 rows</p>
+      
+            <p>hello i am starting at row 2 and spanning 2 rows</p>
+
+        </div>
+        <div class="col-start-2 col-span-2 row-start-2 row-span-2 bg-blue-200 border-4 border-black">
+            <p>hello i am starting at column 2 and spanning 2 columns</p>
+  
+        </div>
+    </div>
 </body>
 </html>
