@@ -7,32 +7,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="tailwind.css">
+    
     <title>Tailwind Demo</title>
 
 </head>
 
 <body class="bg-pink-200">
 
-    <img class="w-12 h-12" src="images/transparentlogo.png" />
-    <h1 class="font-poppins text-4xl bg-purple-200 text-center font-bold">Tailwind: Behind the Scenes</h1>
+    <!-- Title -->
+    <h1 class="font-poppins mt-5 text-4xl font-bold text-center">Tailwind: Behind the Scenes</h1>
 
-    <p class="text-center m-2">The grid below is comprised of 6 rows and 6 columns:</p>
-    <img class="m-2 justify-self-center" src="images/grid.png" />
+    <!-- Subtitle -->
+    <p class="text-center m-2">Welcome to Tailwind: Behind the Scenes! The grid below is comprised of 6 rows and 6 columns:</p>
 
+    <!-- Image of grid code -->
+    <div class="grid grid-cols-1 grid-rows-1">
+        <img class="justify-self-center" src="images/grid.png" />
+    </div>  
+
+    <!-- Page explanation -->
     <p class="text-center m-2">Hover your mouse over the different elements below to see the code that created them!</p>
 
+    <!-- Main Grid -->
     <div class="grid grid-cols-6 grid-rows-6 border-4 border-black h-screen">
 
-        <div class="col-span-1 bg-red-200 border-4 border-black">
+        <!-- Outer columns and rows -->
+        <div class="col-span-1 col-start-1 bg-red-200 border-4 border-black">
             <p class="text-center">Column 1</p>
             <p class="mt-5">Row 1</p>
         </div>
 
         <div class="col-span-1 col-start-2 bg-red-200 border-4 border-black">
             <p class="text-center">Column 2</p>
-            </div>
+        </div>
 
         <div class="col-span-1 col-start-3 bg-red-200 border-4 border-black">
             <p class="text-center">Column 3</p>
@@ -70,6 +79,7 @@
             <p class="mt-8">Row 6</p>
         </div>
 
+        <!-- Demo columns and rows -->
         <div class="col-start-2 row-start-2 col-span-4 row-span1 bg-green-200 hover:bg-demo1 bg-cover border-4 border-black"></div>
 
         <div class="col-start-2 row-start-5 col-span-4 row-span-2 bg-yellow-200 hover:bg-demo2 bg-cover border-4 border-black"></div>
@@ -78,10 +88,9 @@
 
         <div class="col-start-4 row-start-3 col-span-2 row-span-2 bg-blue-200  hover:bg-demo4 bg-cover border-4 border-black"></div>
 
-        <div class="col-start-6 col-span-1 row-start-2 row-span-5 bg-blue-200 hover:bg-demo5 bg-cover border-4 border-black">
-        </div>
-
+        <div class="col-start-6 col-span-1 row-start-2 row-span-5 bg-blue-200 hover:bg-demo5 bg-cover border-4 border-black"></div>
 
     </div>
+
 </body>
 </html>
