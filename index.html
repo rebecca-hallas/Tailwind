@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="tailwind.css">
     <title>Tailwind Demo</title>
 
@@ -13,14 +15,16 @@
 
 <body class="bg-pink-200">
 
-    <h1 class="text-4xl bg-purple-200 text-center">Welcome to a Live Demo of Tailwind CSS!</h1>
-    <p class="text-center m-2">The grid below is comprised of 6 rows and 6 columns.</p>
-    <p class="text-center m-2">Hover your mouse over the different elements to see the code behind them!</p>
+    <img class="w-12 h-12" src="images/transparentlogo.png" />
+    <h1 class="font-poppins text-4xl bg-purple-200 text-center font-bold">Tailwind: Behind the Scenes</h1>
 
+    <p class="text-center m-2">The grid below is comprised of 6 rows and 6 columns:</p>
+    <img class="m-2 justify-self-center" src="images/grid.png" />
+
+    <p class="text-center m-2">Hover your mouse over the different elements below to see the code that created them!</p>
 
     <div class="grid grid-cols-6 grid-rows-6 border-4 border-black h-screen">
 
-        
         <div class="col-span-1 bg-red-200 border-4 border-black">
             <p class="text-center">Column 1</p>
             <p class="mt-5">Row 1</p>
@@ -66,50 +70,16 @@
             <p class="mt-8">Row 6</p>
         </div>
 
-
-
         <div class="col-start-2 row-start-2 col-span-4 row-span1 bg-green-200 hover:bg-demo1 bg-cover border-4 border-black"></div>
 
         <div class="col-start-2 row-start-5 col-span-4 row-span-2 bg-yellow-200 hover:bg-demo2 bg-cover border-4 border-black"></div>
 
-
-
         <div class="col-start-2 col-span-2 row-start-3 row-span-2 bg-blue-200 hover:bg-demo3 bg-cover border-4 border-black"></div>
-
-
-
 
         <div class="col-start-4 row-start-3 col-span-2 row-span-2 bg-blue-200  hover:bg-demo4 bg-cover border-4 border-black"></div>
 
-
-
-
-
-
-
-
-        
-
-
-
         <div class="col-start-6 col-span-1 row-start-2 row-span-5 bg-blue-200 hover:bg-demo5 bg-cover border-4 border-black">
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     </div>

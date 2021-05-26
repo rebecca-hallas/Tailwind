@@ -14,9 +14,10 @@ module.exports = {
         'demo3': "url('./images/demo3.png')",
         'demo4': "url('./images/demo4.png')",
         'demo5': "url('./images/demo5.png')"
-
-
       }),
+      fontFamily: {
+        'poppins': ['poppins', 'Arial']
+      }
     },
   },
   variants: {
