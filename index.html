@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tailwind.css">
     <title>Tailwind Demo</title>
+
 </head>
+
 <body class="bg-pink-200">
-    <h1 class="text-3xl bg-purple-200">Welcome to a Live Demo of Tailwind CSS!</h1>
-    <h1>The grid below is comprised of 6 rows and 6 columns.</h1>
-    <h1>Hover your mouse over the different elements to see the code behind them!</h1>
+
+    <h1 class="text-4xl bg-purple-200 text-center">Welcome to a Live Demo of Tailwind CSS!</h1>
+    <p class="text-center m-2">The grid below is comprised of 6 rows and 6 columns.</p>
+    <p class="text-center m-2">Hover your mouse over the different elements to see the code behind them!</p>
+
 
     <div class="grid grid-cols-6 grid-rows-6 border-4 border-black h-screen">
 
-
-
+        
         <div class="col-span-1 bg-red-200 border-4 border-black">
             <p class="text-center">Column 1</p>
             <p class="mt-5">Row 1</p>
         </div>
 
-
-
         <div class="col-span-1 col-start-2 bg-red-200 border-4 border-black">
             <p class="text-center">Column 2</p>
             </div>
-
-
 
         <div class="col-span-1 col-start-3 bg-red-200 border-4 border-black">
             <p class="text-center">Column 3</p>
         </div>
 
-
-
         <div class="col-span-1 col-start-4 bg-red-200 border-4 border-black">
             <p class="text-center">Column 4</p>
         </div>
 
-
-        
         <div class="col-span-1 col-start-5 bg-red-200 border-4 border-black">
             <p class="text-center">Column 5</p>
         </div>
@@ -69,34 +66,51 @@
             <p class="mt-8">Row 6</p>
         </div>
 
-        <div class="col-span-4 bg-green-200 hover:bg-green-500 border-4 border-black">
-            <p>Hello I am spanning four columns</p>
+
+
+        <div class="col-start-2 row-start-2 col-span-4 row-span1 bg-green-200 hover:bg-demo1 bg-cover border-4 border-black"></div>
+
+        <div class="col-start-2 row-start-5 col-span-4 row-span-2 bg-yellow-200 hover:bg-demo2 bg-cover border-4 border-black"></div>
+
+
+
+        <div class="col-start-2 col-span-2 row-start-3 row-span-2 bg-blue-200 hover:bg-demo3 bg-cover border-4 border-black"></div>
+
+
+
+
+        <div class="col-start-4 row-start-3 col-span-2 row-span-2 bg-blue-200  hover:bg-demo4 bg-cover border-4 border-black"></div>
+
+
+
+
+
+
+
+
+        
+
+
+
+        <div class="col-start-6 col-span-1 row-start-2 row-span-5 bg-blue-200 hover:bg-demo5 bg-cover border-4 border-black">
         </div>
 
 
 
 
-        <div class="col-start-2 row-start-5 col-span-4 row-span-2 bg-yellow-200 hover:bg-yeya border-4 border-black bg-contain">
-            <p>Hi! I am spanning two columns and two rows! Hover over me to see the code that makes me work!</p>
-        </div>
 
 
 
 
-        <div class="row-start-2 row-span-2 bg-blue-200  hover:bg-yay  border-4 border-black">
-            <p>hello i am starting at row 2 and spanning 1 row</p>
-        </div>
 
-        <div class="row-start-2 row-span-2 bg-blue-200 hover:bg-yay border-4 border-black">
-            <p>hello i am starting at row 2 and spanning 2 rows</p>
-        </div>
 
-        <div class="col-start-2 col-span-2 row-start-2 row-span-2 bg-blue-200 hover:bg-yay border-4 border-black">
-            <p>Hi! I start at column 2 and span 2 columns.</p>
-        </div>
 
-        <div class="col-start-6 col-span-1 row-start-2 row-span-5 bg-blue-200 hover:bg-woo border-4 border-black">
-        </div>
+
+
+
+
+
+
 
     </div>
 </body>
