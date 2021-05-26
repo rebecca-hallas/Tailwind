@@ -4229,26 +4229,6 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
-.bg-code {
-  background-image: url('./bg.png');
-}
-
-.bg-yay {
-  background-image: url('./yay.png');
-}
-
-.bg-woo {
-  background-image: url('./woo.png');
-}
-
-.bg-yeya {
-  background-image: url('./yeya.png');
-}
-
-.bg-c1r1 {
-  background-image: url('./images/c1r1.png');
-}
-
 .bg-demo1 {
   background-image: url('./images/demo1.png');
 }
@@ -4267,6 +4247,10 @@ video {
 
 .bg-demo5 {
   background-image: url('./images/demo5.png');
+}
+
+.bg-grid {
+  background-image: url('./images/grid.png');
 }
 
 .hover\:bg-none:hover {
@@ -4305,26 +4289,6 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
-.hover\:bg-code:hover {
-  background-image: url('./bg.png');
-}
-
-.hover\:bg-yay:hover {
-  background-image: url('./yay.png');
-}
-
-.hover\:bg-woo:hover {
-  background-image: url('./woo.png');
-}
-
-.hover\:bg-yeya:hover {
-  background-image: url('./yeya.png');
-}
-
-.hover\:bg-c1r1:hover {
-  background-image: url('./images/c1r1.png');
-}
-
 .hover\:bg-demo1:hover {
   background-image: url('./images/demo1.png');
 }
@@ -4343,6 +4307,10 @@ video {
 
 .hover\:bg-demo5:hover {
   background-image: url('./images/demo5.png');
+}
+
+.hover\:bg-grid:hover {
+  background-image: url('./images/grid.png');
 }
 
 .focus\:bg-none:focus {
@@ -4381,26 +4349,6 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
-.focus\:bg-code:focus {
-  background-image: url('./bg.png');
-}
-
-.focus\:bg-yay:focus {
-  background-image: url('./yay.png');
-}
-
-.focus\:bg-woo:focus {
-  background-image: url('./woo.png');
-}
-
-.focus\:bg-yeya:focus {
-  background-image: url('./yeya.png');
-}
-
-.focus\:bg-c1r1:focus {
-  background-image: url('./images/c1r1.png');
-}
-
 .focus\:bg-demo1:focus {
   background-image: url('./images/demo1.png');
 }
@@ -4419,6 +4367,10 @@ video {
 
 .focus\:bg-demo5:focus {
   background-image: url('./images/demo5.png');
+}
+
+.focus\:bg-grid:focus {
+  background-image: url('./images/grid.png');
 }
 
 .from-transparent {
@@ -35706,26 +35658,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .sm\:bg-code {
-    background-image: url('./bg.png');
-  }
-
-  .sm\:bg-yay {
-    background-image: url('./yay.png');
-  }
-
-  .sm\:bg-woo {
-    background-image: url('./woo.png');
-  }
-
-  .sm\:bg-yeya {
-    background-image: url('./yeya.png');
-  }
-
-  .sm\:bg-c1r1 {
-    background-image: url('./images/c1r1.png');
-  }
-
   .sm\:bg-demo1 {
     background-image: url('./images/demo1.png');
   }
@@ -35744,6 +35676,10 @@ video {
 
   .sm\:bg-demo5 {
     background-image: url('./images/demo5.png');
+  }
+
+  .sm\:bg-grid {
+    background-image: url('./images/grid.png');
   }
 
   .sm\:hover\:bg-none:hover {
@@ -35782,26 +35718,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .sm\:hover\:bg-code:hover {
-    background-image: url('./bg.png');
-  }
-
-  .sm\:hover\:bg-yay:hover {
-    background-image: url('./yay.png');
-  }
-
-  .sm\:hover\:bg-woo:hover {
-    background-image: url('./woo.png');
-  }
-
-  .sm\:hover\:bg-yeya:hover {
-    background-image: url('./yeya.png');
-  }
-
-  .sm\:hover\:bg-c1r1:hover {
-    background-image: url('./images/c1r1.png');
-  }
-
   .sm\:hover\:bg-demo1:hover {
     background-image: url('./images/demo1.png');
   }
@@ -35820,6 +35736,10 @@ video {
 
   .sm\:hover\:bg-demo5:hover {
     background-image: url('./images/demo5.png');
+  }
+
+  .sm\:hover\:bg-grid:hover {
+    background-image: url('./images/grid.png');
   }
 
   .sm\:focus\:bg-none:focus {
@@ -35858,26 +35778,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .sm\:focus\:bg-code:focus {
-    background-image: url('./bg.png');
-  }
-
-  .sm\:focus\:bg-yay:focus {
-    background-image: url('./yay.png');
-  }
-
-  .sm\:focus\:bg-woo:focus {
-    background-image: url('./woo.png');
-  }
-
-  .sm\:focus\:bg-yeya:focus {
-    background-image: url('./yeya.png');
-  }
-
-  .sm\:focus\:bg-c1r1:focus {
-    background-image: url('./images/c1r1.png');
-  }
-
   .sm\:focus\:bg-demo1:focus {
     background-image: url('./images/demo1.png');
   }
@@ -35896,6 +35796,10 @@ video {
 
   .sm\:focus\:bg-demo5:focus {
     background-image: url('./images/demo5.png');
+  }
+
+  .sm\:focus\:bg-grid:focus {
+    background-image: url('./images/grid.png');
   }
 
   .sm\:from-transparent {
@@ -67013,26 +66917,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .md\:bg-code {
-    background-image: url('./bg.png');
-  }
-
-  .md\:bg-yay {
-    background-image: url('./yay.png');
-  }
-
-  .md\:bg-woo {
-    background-image: url('./woo.png');
-  }
-
-  .md\:bg-yeya {
-    background-image: url('./yeya.png');
-  }
-
-  .md\:bg-c1r1 {
-    background-image: url('./images/c1r1.png');
-  }
-
   .md\:bg-demo1 {
     background-image: url('./images/demo1.png');
   }
@@ -67051,6 +66935,10 @@ video {
 
   .md\:bg-demo5 {
     background-image: url('./images/demo5.png');
+  }
+
+  .md\:bg-grid {
+    background-image: url('./images/grid.png');
   }
 
   .md\:hover\:bg-none:hover {
@@ -67089,26 +66977,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .md\:hover\:bg-code:hover {
-    background-image: url('./bg.png');
-  }
-
-  .md\:hover\:bg-yay:hover {
-    background-image: url('./yay.png');
-  }
-
-  .md\:hover\:bg-woo:hover {
-    background-image: url('./woo.png');
-  }
-
-  .md\:hover\:bg-yeya:hover {
-    background-image: url('./yeya.png');
-  }
-
-  .md\:hover\:bg-c1r1:hover {
-    background-image: url('./images/c1r1.png');
-  }
-
   .md\:hover\:bg-demo1:hover {
     background-image: url('./images/demo1.png');
   }
@@ -67127,6 +66995,10 @@ video {
 
   .md\:hover\:bg-demo5:hover {
     background-image: url('./images/demo5.png');
+  }
+
+  .md\:hover\:bg-grid:hover {
+    background-image: url('./images/grid.png');
   }
 
   .md\:focus\:bg-none:focus {
@@ -67165,26 +67037,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .md\:focus\:bg-code:focus {
-    background-image: url('./bg.png');
-  }
-
-  .md\:focus\:bg-yay:focus {
-    background-image: url('./yay.png');
-  }
-
-  .md\:focus\:bg-woo:focus {
-    background-image: url('./woo.png');
-  }
-
-  .md\:focus\:bg-yeya:focus {
-    background-image: url('./yeya.png');
-  }
-
-  .md\:focus\:bg-c1r1:focus {
-    background-image: url('./images/c1r1.png');
-  }
-
   .md\:focus\:bg-demo1:focus {
     background-image: url('./images/demo1.png');
   }
@@ -67203,6 +67055,10 @@ video {
 
   .md\:focus\:bg-demo5:focus {
     background-image: url('./images/demo5.png');
+  }
+
+  .md\:focus\:bg-grid:focus {
+    background-image: url('./images/grid.png');
   }
 
   .md\:from-transparent {
@@ -98320,26 +98176,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .lg\:bg-code {
-    background-image: url('./bg.png');
-  }
-
-  .lg\:bg-yay {
-    background-image: url('./yay.png');
-  }
-
-  .lg\:bg-woo {
-    background-image: url('./woo.png');
-  }
-
-  .lg\:bg-yeya {
-    background-image: url('./yeya.png');
-  }
-
-  .lg\:bg-c1r1 {
-    background-image: url('./images/c1r1.png');
-  }
-
   .lg\:bg-demo1 {
     background-image: url('./images/demo1.png');
   }
@@ -98358,6 +98194,10 @@ video {
 
   .lg\:bg-demo5 {
     background-image: url('./images/demo5.png');
+  }
+
+  .lg\:bg-grid {
+    background-image: url('./images/grid.png');
   }
 
   .lg\:hover\:bg-none:hover {
@@ -98396,26 +98236,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .lg\:hover\:bg-code:hover {
-    background-image: url('./bg.png');
-  }
-
-  .lg\:hover\:bg-yay:hover {
-    background-image: url('./yay.png');
-  }
-
-  .lg\:hover\:bg-woo:hover {
-    background-image: url('./woo.png');
-  }
-
-  .lg\:hover\:bg-yeya:hover {
-    background-image: url('./yeya.png');
-  }
-
-  .lg\:hover\:bg-c1r1:hover {
-    background-image: url('./images/c1r1.png');
-  }
-
   .lg\:hover\:bg-demo1:hover {
     background-image: url('./images/demo1.png');
   }
@@ -98434,6 +98254,10 @@ video {
 
   .lg\:hover\:bg-demo5:hover {
     background-image: url('./images/demo5.png');
+  }
+
+  .lg\:hover\:bg-grid:hover {
+    background-image: url('./images/grid.png');
   }
 
   .lg\:focus\:bg-none:focus {
@@ -98472,26 +98296,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .lg\:focus\:bg-code:focus {
-    background-image: url('./bg.png');
-  }
-
-  .lg\:focus\:bg-yay:focus {
-    background-image: url('./yay.png');
-  }
-
-  .lg\:focus\:bg-woo:focus {
-    background-image: url('./woo.png');
-  }
-
-  .lg\:focus\:bg-yeya:focus {
-    background-image: url('./yeya.png');
-  }
-
-  .lg\:focus\:bg-c1r1:focus {
-    background-image: url('./images/c1r1.png');
-  }
-
   .lg\:focus\:bg-demo1:focus {
     background-image: url('./images/demo1.png');
   }
@@ -98510,6 +98314,10 @@ video {
 
   .lg\:focus\:bg-demo5:focus {
     background-image: url('./images/demo5.png');
+  }
+
+  .lg\:focus\:bg-grid:focus {
+    background-image: url('./images/grid.png');
   }
 
   .lg\:from-transparent {
@@ -129627,26 +129435,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .xl\:bg-code {
-    background-image: url('./bg.png');
-  }
-
-  .xl\:bg-yay {
-    background-image: url('./yay.png');
-  }
-
-  .xl\:bg-woo {
-    background-image: url('./woo.png');
-  }
-
-  .xl\:bg-yeya {
-    background-image: url('./yeya.png');
-  }
-
-  .xl\:bg-c1r1 {
-    background-image: url('./images/c1r1.png');
-  }
-
   .xl\:bg-demo1 {
     background-image: url('./images/demo1.png');
   }
@@ -129665,6 +129453,10 @@ video {
 
   .xl\:bg-demo5 {
     background-image: url('./images/demo5.png');
+  }
+
+  .xl\:bg-grid {
+    background-image: url('./images/grid.png');
   }
 
   .xl\:hover\:bg-none:hover {
@@ -129703,26 +129495,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .xl\:hover\:bg-code:hover {
-    background-image: url('./bg.png');
-  }
-
-  .xl\:hover\:bg-yay:hover {
-    background-image: url('./yay.png');
-  }
-
-  .xl\:hover\:bg-woo:hover {
-    background-image: url('./woo.png');
-  }
-
-  .xl\:hover\:bg-yeya:hover {
-    background-image: url('./yeya.png');
-  }
-
-  .xl\:hover\:bg-c1r1:hover {
-    background-image: url('./images/c1r1.png');
-  }
-
   .xl\:hover\:bg-demo1:hover {
     background-image: url('./images/demo1.png');
   }
@@ -129741,6 +129513,10 @@ video {
 
   .xl\:hover\:bg-demo5:hover {
     background-image: url('./images/demo5.png');
+  }
+
+  .xl\:hover\:bg-grid:hover {
+    background-image: url('./images/grid.png');
   }
 
   .xl\:focus\:bg-none:focus {
@@ -129779,26 +129555,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .xl\:focus\:bg-code:focus {
-    background-image: url('./bg.png');
-  }
-
-  .xl\:focus\:bg-yay:focus {
-    background-image: url('./yay.png');
-  }
-
-  .xl\:focus\:bg-woo:focus {
-    background-image: url('./woo.png');
-  }
-
-  .xl\:focus\:bg-yeya:focus {
-    background-image: url('./yeya.png');
-  }
-
-  .xl\:focus\:bg-c1r1:focus {
-    background-image: url('./images/c1r1.png');
-  }
-
   .xl\:focus\:bg-demo1:focus {
     background-image: url('./images/demo1.png');
   }
@@ -129817,6 +129573,10 @@ video {
 
   .xl\:focus\:bg-demo5:focus {
     background-image: url('./images/demo5.png');
+  }
+
+  .xl\:focus\:bg-grid:focus {
+    background-image: url('./images/grid.png');
   }
 
   .xl\:from-transparent {
@@ -160934,26 +160694,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .\32xl\:bg-code {
-    background-image: url('./bg.png');
-  }
-
-  .\32xl\:bg-yay {
-    background-image: url('./yay.png');
-  }
-
-  .\32xl\:bg-woo {
-    background-image: url('./woo.png');
-  }
-
-  .\32xl\:bg-yeya {
-    background-image: url('./yeya.png');
-  }
-
-  .\32xl\:bg-c1r1 {
-    background-image: url('./images/c1r1.png');
-  }
-
   .\32xl\:bg-demo1 {
     background-image: url('./images/demo1.png');
   }
@@ -160972,6 +160712,10 @@ video {
 
   .\32xl\:bg-demo5 {
     background-image: url('./images/demo5.png');
+  }
+
+  .\32xl\:bg-grid {
+    background-image: url('./images/grid.png');
   }
 
   .\32xl\:hover\:bg-none:hover {
@@ -161010,26 +160754,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .\32xl\:hover\:bg-code:hover {
-    background-image: url('./bg.png');
-  }
-
-  .\32xl\:hover\:bg-yay:hover {
-    background-image: url('./yay.png');
-  }
-
-  .\32xl\:hover\:bg-woo:hover {
-    background-image: url('./woo.png');
-  }
-
-  .\32xl\:hover\:bg-yeya:hover {
-    background-image: url('./yeya.png');
-  }
-
-  .\32xl\:hover\:bg-c1r1:hover {
-    background-image: url('./images/c1r1.png');
-  }
-
   .\32xl\:hover\:bg-demo1:hover {
     background-image: url('./images/demo1.png');
   }
@@ -161048,6 +160772,10 @@ video {
 
   .\32xl\:hover\:bg-demo5:hover {
     background-image: url('./images/demo5.png');
+  }
+
+  .\32xl\:hover\:bg-grid:hover {
+    background-image: url('./images/grid.png');
   }
 
   .\32xl\:focus\:bg-none:focus {
@@ -161086,26 +160814,6 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
-  .\32xl\:focus\:bg-code:focus {
-    background-image: url('./bg.png');
-  }
-
-  .\32xl\:focus\:bg-yay:focus {
-    background-image: url('./yay.png');
-  }
-
-  .\32xl\:focus\:bg-woo:focus {
-    background-image: url('./woo.png');
-  }
-
-  .\32xl\:focus\:bg-yeya:focus {
-    background-image: url('./yeya.png');
-  }
-
-  .\32xl\:focus\:bg-c1r1:focus {
-    background-image: url('./images/c1r1.png');
-  }
-
   .\32xl\:focus\:bg-demo1:focus {
     background-image: url('./images/demo1.png');
   }
@@ -161124,6 +160832,10 @@ video {
 
   .\32xl\:focus\:bg-demo5:focus {
     background-image: url('./images/demo5.png');
+  }
+
+  .\32xl\:focus\:bg-grid:focus {
+    background-image: url('./images/grid.png');
   }
 
   .\32xl\:from-transparent {

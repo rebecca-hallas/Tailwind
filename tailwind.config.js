@@ -9,7 +9,7 @@ module.exports = {
         'demo3': "url('./images/demo3.png')",
         'demo4': "url('./images/demo4.png')",
         'demo5': "url('./images/demo5.png')",
-        'grid': "url('./images/demo5.png')"
+        'grid': "url('./images/grid.png')"
       }),
       fontFamily: {
         'poppins': ['poppins', 'Arial']
