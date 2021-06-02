@@ -11,6 +11,9 @@ module.exports = {
         'demo5': "url('./images/demo5.png')",
         'grid': "url('./images/grid.png')"
       }),
+      colors: {
+        lilac: '#f2ebf4'
+      },
       fontFamily: {
         'poppins': ['poppins', 'Arial']
       }
